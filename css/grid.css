@@ -24,7 +24,6 @@ body { font-family: sans-serif; }
 .grid-item {
     width: 230px;
     float: left;
-    background: #D26;
 }
 
 .grid-item--width2 { width: 320px; }
