@@ -1,0 +1,15 @@
+
+/* Blogger-reset */
+    body {width: 100%;min-width: 0;color: #fff;background: #fff;}
+    body .navbar {display: none;}
+    html body .region-inner {padding: 0;}
+    .tabs-outer{display: none;}
+    .header-inner .header {display: none;}
+    .post-footer {display: none;}
+    .footer-outer {display: none;}
+    .content-outer, .content-fauxcolumn-outer, .region-inner {min-width: 100%;max-width: 100%;}
+    .content {width: 100%;}
+    .content-inner {padding: 0;}
+    .main-inner .column-center-inner {padding: 0;}
+    .loading{display: none !important;}
+    .content-inner>header{display: none !important;}

@@ -1,0 +1,248 @@
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shape_box{
+    display: flex;
+    width: 97%;
+    height: 93vh;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.18);
+    border-radius: 20px;
+}
+.c{
+    width: 0;
+    transition: ease-in-out 0.3s;
+}
+.b{
+    display: none !important;
+}
+.deg{
+    transform: rotate(180deg);
+}
+.outside{
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+header{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 254px;
+    height: 100%;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.02);
+    border-radius: 20px 0px 0px 20px;
+}
+header .logo{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+header ul{
+    list-style: none;
+    padding-left: 10px;
+}
+header ul>li{
+    margin: 10px 0;
+    padding-left: 10px;
+}
+header ul>li>a{
+    font-family: Arial,'Charcoal','SF Pro';
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #dddddd;
+}
+header ul>li>a:hover{
+    color: #c2c2c2;
+}
+header ul>li>ul>li>a::before{
+    content: '\2015';
+    margin-right: 10px;
+    font-size: 24px;
+    color: #dddddd;
+}
+.sns_icon{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.sns_icon i{
+    margin: 20px 15px;
+    font-size: 20px;
+    color: #dddddd;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.sns_icon .fa-instagram:hover{
+    color: #D52877;
+}
+.sns_icon .fa-line:hover{
+    color: #07B53B;
+}
+.sns_icon .fa-facebook-f:hover{
+    color: #4064AC;
+}
+/* hamburger */
+
+.hamburger_btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 70px;
+    top: 20px;
+    right: -30px;
+    background: #f6cf00;
+    border-radius: 0 6px 6px 0;
+    z-index: 999;
+}
+.hamburger_btn i{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* artworks_box */
+.artworks_order{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.artworks_box{
+    position: relative;
+    width: fit-content;
+    margin: 10px;
+}
+.pic_box{
+    width: 100%;
+    height: 16vh;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+.pic_box img{
+    height: 100%;
+    object-fit: cover;
+}
+.art_hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.15);;
+    transition: ease-in-out 0.3s;
+}
+.tag_box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+.tag_btn{
+    width: fit-content;
+    height: 22px;
+    margin: 5px;
+    padding: 0px 14px;
+    
+    text-align: center;
+    border-radius: 999px;
+    background: #f6cf00;
+}
+.tag_btn p{
+    font-size: 12px;
+    line-height: 0px;
+    color: #ffffff;
+}
+.artworks_box:hover .art_hover{
+    opacity: 1;
+}
+.artworks_box:hover .pic_box{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0);
+}
+
+@media screen and (max-width:1024px){
+    .shape_box {
+        position: relative;
+        overflow: hidden;
+    }
+    header {
+        position: relative;
+        z-index: 1;
+        background: #ffffff;
+        height: 100%;
+    }
+    .artworks_order {
+        position: absolute;
+        width: 100%;
+        height: 85vh;
+        z-index: 0;
+    }
+
+}
+@media screen and (max-width:500px){
+    
+    .shape_box {
+        height: 82vh;
+    }
+    header{
+        display: none;
+    }
+
+    .artworks_order {
+        padding: 20px 0;
+    }
+    .artworks_box {
+        width: fit-content;
+        margin: 10px auto;
+        width: 85%;
+        height: fit-content;
+    }
+    .pic_box {
+        width: 100%;
+        height: auto;
+    }
+    .pic_box img {
+        width: 100%;
+    }
+}
+
+
+
+/* rebuild */
+.widget .post-body ul {
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    line-height: unset;
+    text-align: left;
+}
+.widget .post-body li {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 20px 0;
+    padding-left: 10px;
+}
