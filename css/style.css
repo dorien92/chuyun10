@@ -229,22 +229,7 @@ header ul>li>ul>li>a::before{
     }
 }
 
-/* 瀑布流自適應 */
-@media screen and (max-width:1400px){
-    .grid-item {
-        width: 185px !important;
-    }
-}
-@media screen and (max-width:500px){
-    .grid-item {
-        width: 135px !important;
-    }
-}
-@media screen and (max-width:320px){
-    .grid-item {
-        width: 80% !important;
-    }
-}
+
 
 
 

@@ -22,7 +22,7 @@ body { font-family: sans-serif; }
 /* ---- grid-item ---- */
 
 .grid-item {
-    width: 285px;
+    width: 22.5%;
     float: left;
 }
 
@@ -35,3 +35,18 @@ body { font-family: sans-serif; }
 .grid-item--height4 { height: 360px; }
 
 
+@media screen and (max-width:1024px){
+    .grid-item {
+        width: 30%;
+    }
+}
+@media screen and (max-width:500px){
+    .grid-item {
+        width: 40%;
+    }
+}
+@media screen and (max-width:350px){
+    .grid-item {
+        width: 80%;
+    }
+}
