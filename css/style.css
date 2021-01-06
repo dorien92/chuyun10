@@ -286,7 +286,8 @@ header ul>li>ul>li>a::before{
 .about_order>.photo img{
     width: 100%;
     height: 100%;
-    margin-bottom: 10px;
+    margin: 45px auto 10px;
+    margin-top: 45px;
 }
 .about_order>.photo h3{
     margin: 5px 0;
@@ -350,7 +351,6 @@ header ul>li>ul>li>a::before{
     .about_order>.photo {
         width: 250px;
         height: 250px;
-        margin-top: 45px;
     }
     .contact_box {
         flex-direction: column;
