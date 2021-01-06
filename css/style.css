@@ -378,6 +378,18 @@ header ul>li>ul>li>a::before{
 .skill_order .title h3{
     
 }
+.skill_adobe{
+    width: 90%;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+.adobe_icon{
+    display: flex;
+}
+.adobe_icon img{
+    width: 27px;
+    margin: 5px;
+}
 .skill_web{
     width: 90%;
     max-width: 1024px;
