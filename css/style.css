@@ -259,6 +259,7 @@ header ul>li>ul>li>a::before{
 .content_box{
     width: 100%;
 }
+
 @media screen and (max-width:500px){
     .content_box {
         overflow-y: scroll;
@@ -357,6 +358,120 @@ header ul>li>ul>li>a::before{
     }
     .contact_item {
         justify-content: center;
+    }
+}
+
+
+/* skill*/
+.skill_order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.skill_order .title{
+
+}
+.skill_order .title h3{
+    
+}
+.skill_web{
+    width: 90%;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+.skill_web>.web_item{
+    display: flex;
+}
+.skill_web>.web_item>.name{
+    width: 80px;
+}
+.skill_web>.web_item>.name p{
+    font-family: 'Courier New';
+    font-size: 12px;
+    font-weight: unset;
+}
+.skill_web>.web_item>.graph_box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: calc(100% - 80px);
+    padding: 0 20px;
+}
+.skill_web>.web_item>.graph_box>.bar_box{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 999px;
+    background: #f1f1f1;
+    overflow: hidden;
+    z-index: 0;
+}
+.skill_web>.web_item>.graph_box>.bar_box .proportion{
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    border-radius: 999px;
+    z-index: 1;
+}
+.proportion>.color{
+    height: 100%;
+    border-radius: 999px;
+    background:linear-gradient(to right,#72aad7,#86cbc3);
+    animation-name:skill_bar;
+    animation-duration:0.6s;
+}
+@keyframes skill_bar{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+
+/* #bar-01{
+    animation-delay:0s;
+}
+#bar-02{
+    animation-delay:0.2s;
+}
+#bar-03{
+    animation-delay:0.4s;
+}
+#bar-04{
+    animation-delay:0.6s;
+} */
+
+.skill_web>.web_item:nth-child(2) .proportion{
+    width: 70%;
+}
+.skill_web>.web_item:nth-child(3) .proportion{
+    width: 65%;
+}
+.skill_web>.web_item:nth-child(4) .proportion{
+    width: 5%;
+    min-width: 20px;
+}
+.skill_web>.web_item:nth-child(5) .proportion{
+    width: 9%;
+    min-width: 25px;
+}
+
+.skill_language{
+    width: 90%;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+@media screen and (max-width:500px){
+    .skill_web>.web_item {
+        flex-direction: column;
+    }
+    .skill_web>.web_item>.name {
+        width: 100%;
+    }
+    .skill_web>.web_item>.graph_box {
+        width: 100%;
+        padding: 0;
     }
 }
 
