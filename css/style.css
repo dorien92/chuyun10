@@ -58,11 +58,10 @@ header ul>li{
     padding-left: 10px;
 }
 header ul>li>a{
-    font-family: Arial,'Charcoal','SF Pro';
+    font-family: 'Charcoal','SF Pro';
     letter-spacing: 1px;
     text-decoration: none;
-    font-size: 32px;
-    font-weight: bolder;
+    font-size: 28px;
     color: #dddddd;
 }
 header ul>li>a:hover{
@@ -256,9 +255,109 @@ header ul>li>ul>li>a::before{
     }
 }
 
+/* all */
+.content_box{
+    width: 100%;
+}
+@media screen and (max-width:500px){
+    .content_box {
+        overflow-y: scroll;
+    }
+}
 
-
-
+/* about me */
+.about_order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.about_order>.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+}
+.about_order>.photo img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.about_order>.photo h3{
+    margin: 5px 0;
+    color: #5d5d5d;
+}
+.about_order>.photo p{
+    margin: 0;
+    color: #5d5d5d;
+    font-size: 14px;
+}
+.hobby_box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px auto;
+}
+.hobby_item{
+    margin: 5px 15px;
+}
+.hobby_item .icon_box{
+    display: flex;
+    justify-content: center;
+}
+.hobby_item .icon_box i{
+    margin: 5px;
+    color: #5d5d5d;
+    font-size: 18px;
+}
+.hobby_item p{
+    margin: 5px auto;
+    color: #c2c2c2;
+    font-size: 12px;
+    font-family: 'Courier New';
+    text-align: center;
+}
+.contact_box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: #5d5d5d;
+}
+.contact_item i{
+    margin: 0 10px;
+}
+.contact_item p{
+    font-family: 'Courier New';
+    font-size: 12px;
+    font-weight: unset;
+}
+@media screen and (max-width:500px){
+    .about_order {
+        justify-content: start;
+    }
+    .about_order>.photo {
+        width: 250px;
+        height: 250px;
+        margin-top: 45px;
+    }
+    .contact_box {
+        flex-direction: column;
+    }
+    .contact_item {
+        justify-content: center;
+    }
+}
 
 /* rebuild */
 .widget .post-body ul {
