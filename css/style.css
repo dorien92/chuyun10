@@ -381,7 +381,7 @@ header ul>li>ul>li>a::before{
 .skill_adobe{
     width: 90%;
     max-width: 1024px;
-    margin: 20px auto;
+    margin: 50px auto 20px;
 }
 .adobe_icon{
     display: flex;
