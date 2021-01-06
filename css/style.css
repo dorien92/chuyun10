@@ -210,9 +210,6 @@ header ul>li>ul>li>a::before{
     header{
         display: none;
     }
-    .grid-item {
-        width: 135px !important;
-    }
     .artworks_order {
         padding: 20px 0;
     }
@@ -232,9 +229,7 @@ header ul>li>ul>li>a::before{
     }
 }
 @media screen and (max-width:320px){
-    .grid-item {
-        width: 80% !important;
-    }
+    
 }
 
 

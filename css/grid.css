@@ -33,3 +33,20 @@ body { font-family: sans-serif; }
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
+
+
+@media screen and (max-width:1400px){
+    .grid-item {
+        width: 185px;
+    }
+}
+@media screen and (max-width:500px){
+    .grid-item {
+        width: 135px;
+    }
+}
+@media screen and (max-width:320px){
+    .grid-item {
+        width: 80%;
+    }
+}
