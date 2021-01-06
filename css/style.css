@@ -326,6 +326,7 @@ header ul>li>ul>li>a::before{
     display: flex;
     justify-content: space-around;
     width: 100%;
+    max-width: 1024px;
     margin-bottom: 20px;
 }
 .contact_item{
