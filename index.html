@@ -15,6 +15,8 @@
 
 <body>
 
+    
+
     <div class="shape_box">
 
         <div class="outside">
@@ -520,47 +522,42 @@
             </div>
 
         </div>
+
+        
         
 
         <div class="artworks_order"></div>
             
-
-
-
 
         </div>
 
         <!-- 作品瀑布流ed -->
 
 
-        
-
-
     </div>
 
-
-
+    <script>
+        // external js: masonry.pkgd.js
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+        });
+    </script>
 
 
     <script>
-
-        // external js: masonry.pkgd.js
-
-        $('.grid').masonry({
-        itemSelector: '.grid-item',
-        });
-
         $(function () {
             $(".hamburger_btn").on("click", function () {
                 $('header').animate({ width: 'toggle' }, 300);
 
                 $(".hamburger_btn>i").toggleClass("deg");
             });
-        });
+        })
+    </script>
+        
 
         
 
-    </script>
+   
 
 
 
