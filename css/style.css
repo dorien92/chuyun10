@@ -388,7 +388,7 @@ header ul>li>ul>li>a::before{
 }
 .adobe_icon img{
     width: 27px;
-    height: initial;
+    height: inherit;
     margin: 5px;
 }
 .skill_web{
