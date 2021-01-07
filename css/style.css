@@ -385,6 +385,7 @@ header ul>li>ul>li>a::before{
 }
 .adobe_icon{
     display: flex;
+    border: 1px solid #000;
 }
 .adobe_icon img{
     width: 27px;
