@@ -385,11 +385,12 @@ header ul>li>ul>li>a::before{
 }
 .adobe_icon{
     display: flex;
-    border: 1px solid red;
+    height: 26.39px;
+    border: 1px solid blue;
 }
 .adobe_icon img{
     width: 27px;
-    height: initial;
+    height: inherit;
     margin: 5px;
 }
 .skill_web{
