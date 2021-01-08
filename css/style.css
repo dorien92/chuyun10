@@ -737,7 +737,7 @@ header ul>li>ul>li>a::before{
         padding: 0;
     }
 }
-@media screen and (max-width:350px){
+@media screen and (max-width:500px){
     .column {
         -ms-flex: 100%; /* IE 10 */
         flex: 100%;
