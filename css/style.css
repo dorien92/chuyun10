@@ -752,6 +752,7 @@ header ul>li>ul>li>a::before{
     background: #ffffff !important;
 }
 .fs-lightbox.fs-light {
+    outline: none !important;
     border: 0px !important;
     border-radius: 12px !important;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.15) !important;
