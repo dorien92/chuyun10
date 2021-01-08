@@ -161,6 +161,7 @@ header ul>li>ul>li>a::before{
 }
 .pic_box img{
     width: 100%;
+    height: inherit;
     object-fit: cover;
 }
 .art_hover{
