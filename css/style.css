@@ -250,10 +250,13 @@ header ul>li>ul>li>a::before{
     .pic_box {
         width: 100%;
         height: initial;
+        vertical-align: middle;
         border-radius: 6px;
     }
     .pic_box img {
+        vertical-align: middle;
         width: 100%;
+        height: inherit;
     }
 }
 
