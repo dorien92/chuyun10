@@ -249,7 +249,7 @@ header ul>li>ul>li>a::before{
     }
     .pic_box {
         width: 100%;
-        height: auto;
+        height: initial;
         border-radius: 6px;
     }
     .pic_box img {
