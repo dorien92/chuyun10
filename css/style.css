@@ -456,6 +456,7 @@ header ul>li>ul>li>a::before{
     justify-content: center;
     align-items: start;
     width: 25%;
+    min-width: 163px;
     margin: 10px 0;
     padding: 10px;
 }
@@ -473,6 +474,50 @@ header ul>li>ul>li>a::before{
     width: 90%;
     max-width: 1024px;
     margin: 20px auto;
+}
+
+
+@media screen and (max-width:900px){
+    .profile_order {
+        padding: 20px 10px;
+    }
+    .profile_order .title h3 {
+        text-align: center;
+    }
+    .profile_item {
+        flex-wrap: wrap;
+    }
+    .position_title h5 {
+        width: 100%;
+        text-align: center;
+        margin: 2px auto;
+    }
+    .position_title span {
+        width: 100%;
+        text-align: center;
+        margin: 2px auto;
+    }
+    .position_title h6 {
+        text-align: center;
+    }
+    .profile_item>.time {
+        margin: 10px auto;
+    }
+    .profile_item>.content {
+        width: 100%;
+    }
+    .profile_item>.content .text_box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .profile_item>.content .text_box .text {
+        width: 100%;
+        padding: 15px;
+    }
+    .profile_item>.content .use {
+        margin: 0 auto;
+        padding: 0;
+    }
 }
 
 
