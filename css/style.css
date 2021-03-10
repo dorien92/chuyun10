@@ -162,8 +162,9 @@ header ul>li>ul>li>a::before{
 }
 .pic_box img{
     width: 100%;
-    height: auto !important;
-    /* height: inherit; */
+    /* height: auto !important; */
+    align-self: flex-start;
+    height: inherit;
     /* object-fit: cover; */
 }
 .art_hover{
