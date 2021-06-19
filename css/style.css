@@ -230,7 +230,7 @@ header ul>li>ul>li>a::before{
     
     .shape_box {
         height: 90vh;
-        margin: 5vh 2%;
+        margin: 2vh 2% 5vh;
     }
     .yellow_title{
         display: none;
