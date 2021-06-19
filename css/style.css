@@ -229,7 +229,7 @@ header ul>li>ul>li>a::before{
 @media screen and (max-width:500px){
     
     .shape_box {
-        height: 82vh;
+        height: 95vh;
     }
     .yellow_title{
         display: none;
