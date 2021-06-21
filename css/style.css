@@ -892,7 +892,7 @@ header ul>li>ul>li>a::before{
 }
 
 .logo_bg{
-    background-color: #E6E6E7;
+    background-color: #f1f1f1;
 }
 .logo_order{
     display: flex;
@@ -913,7 +913,7 @@ header ul>li>ul>li>a::before{
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 1;
+    opacity: 0.75;
 }
 .logo_box .pic_c{
     position: absolute;
