@@ -5,6 +5,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 .shape_box{
     display: flex;
@@ -886,6 +887,64 @@ header ul>li>ul>li>a::before{
 }
 @media screen and (max-width:630px){
     .web_box {
+        width: 90%;
+    }
+}
+
+.logo_bg{
+    background-color: #E6E6E7;
+}
+.logo_order{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 7%;
+}
+.logo_box{
+    position: relative;
+    width: 20%;
+    max-width: 300px;
+    height: 25vh;
+}
+.logo_box .pic_n{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.logo_box .pic_c{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.logo_box img{
+    width: 100%;
+}
+.logo_box:hover .pic_n{
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+.logo_box:hover .pic_c{
+    opacity: 1;
+    transition: ease-in-out 0.2s;
+}
+
+@media screen and (max-width:1300px){
+    .logo_box {
+        width: 33%;
+    }
+}
+@media screen and (max-width:1024px){
+    .logo_box {
+        width: 50%;
+    }
+}
+@media screen and (max-width:630px){
+    .logo_box {
         width: 90%;
     }
 }
