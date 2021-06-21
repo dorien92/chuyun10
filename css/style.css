@@ -46,9 +46,12 @@ header{
     border-radius: 20px 0px 0px 20px;
 }
 header .logo{
-    width: 100%;
-    margin-top: 20px;
+    width: 150px;
+    margin: 20px auto;
     text-align: center;
+}
+header .logo img{
+    width: 100%;
 }
 header ul{
     list-style: none;
