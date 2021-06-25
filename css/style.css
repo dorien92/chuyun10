@@ -62,7 +62,7 @@ header ul>li{
     padding-left: 10px;
 }
 header ul>li>a{
-    font-family: 'Charcoal','SF Pro';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     letter-spacing: 1px;
     text-decoration: none;
     font-size: 28px;
@@ -134,7 +134,7 @@ header ul>li>ul>li>a::before{
 }
 .yellow_title h3{
     margin: 12px 3px;
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-size: 12px;
     font-weight: unset;
 }
@@ -203,6 +203,7 @@ header ul>li>ul>li>a::before{
     font-size: 12px;
     line-height: 0px;
     color: #ffffff;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 .artworks_box:hover .art_hover{
     opacity: 1;
@@ -305,6 +306,7 @@ header ul>li>ul>li>a::before{
 .about_order>.photo h3{
     margin: 5px 0;
     color: #5d5d5d;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 .about_order>.photo p{
     margin: 0;
@@ -333,7 +335,7 @@ header ul>li>ul>li>a::before{
     margin: 5px auto;
     color: #c2c2c2;
     font-size: 12px;
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     text-align: center;
 }
 .contact_box{
@@ -353,7 +355,7 @@ header ul>li>ul>li>a::before{
     margin: 0 10px;
 }
 .contact_item p{
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-size: 12px;
     font-weight: unset;
 }
@@ -388,6 +390,7 @@ header ul>li>ul>li>a::before{
 }
 .profile_order .title h3{
     color: #5d5d5d; 
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 .profile_ex{
     width: 90%;
@@ -399,27 +402,30 @@ header ul>li>ul>li>a::before{
     align-items: center;
     width: 100%;
     margin: 20px auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #f1f1f1;
 }
 .profile_item>.time{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
     border-radius: 999px;
-    background: #dddddd;
+    background: linear-gradient(to right,#c5c5c5,#dddddd);
 }
 .profile_item>.time h5{
     margin: 2px auto;
     color: #ffffff;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 .profile_item:nth-child(2) .time{
-    background: #86cbc3;
+    background: linear-gradient(to right,#72aad7,#86cbc3);
 }
 .profile_item>.content{
-    width: calc(100% - 100px);
+    width: calc(100% - 120px);
 }
 .position_title{
     display: flex;
@@ -436,6 +442,7 @@ header ul>li>ul>li>a::before{
     margin: 2px 10px;
     color: #86cbc3;
     font-weight: unset;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 .position_title h6{
     width: 100%;
@@ -453,10 +460,10 @@ header ul>li>ul>li>a::before{
     margin: 10px 0;
     padding: 20px;
     border-radius: 20px;
-    background: #f1f1f1;
+    background: #f9f9f9;
 }
 .profile_item>.content .text_box .text p{
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-size: 12px;
     font-weight: unset;
 }
@@ -474,7 +481,7 @@ header ul>li>ul>li>a::before{
     width: 100%;
     margin: 0;
     text-align: left;
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-size: 12px;
     font-weight: unset;
 }
@@ -485,7 +492,84 @@ header ul>li>ul>li>a::before{
     max-width: 1024px;
     margin: 20px auto;
 }
+.edu_order{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.edu_item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
 
+.edu_order:nth-child(odd) .edu_item{
+    flex-direction: row-reverse;
+}
+.edu_order:nth-child(odd) .edu_item .edu_text{
+    align-items: flex-start;
+    text-align: left;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #86cbc3;
+}
+
+.edu_item .ball{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 14px;
+    height: 14px;
+    margin-right: -7px;
+    border-radius: 999px;
+    background-color: #86cbc3;
+}
+.edu_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    padding: 20px 50px;
+    text-align: right;
+    border-right: 1px solid #86cbc3;
+}
+.edu_text h5{
+    width: auto;
+    margin: 2px 0;
+    font-size: 18px;
+    font-weight: unset;
+    color: #86cbc3;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+.edu_text p{
+    width: auto;
+    margin: 2px 0;
+    color: #5d5d5d;
+    font-size: 18x;
+    font-weight: unset;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+.edu_text h1{
+    width: auto;
+    margin: 2px 0;
+    color: #dddddd;
+    font-size: 22px;
+    font-weight: unset;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+.edu_null{
+    width: calc( 50% - 1px);
+}
+
+@media screen and (max-width:1200px){
+    .edu_text{
+        padding: 20px;
+    }
+}
 
 @media screen and (max-width:900px){
     .profile_order {
@@ -496,6 +580,8 @@ header ul>li>ul>li>a::before{
     }
     .profile_item {
         flex-wrap: wrap;
+        padding-bottom: none;
+        border-bottom: none;
     }
     .position_title h5 {
         width: 100%;
@@ -519,6 +605,8 @@ header ul>li>ul>li>a::before{
     .profile_item>.content .text_box {
         flex-wrap: wrap;
         width: 100%;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #f1f1f1;
     }
     .profile_item>.content .text_box .text {
         width: 100%;
@@ -527,6 +615,34 @@ header ul>li>ul>li>a::before{
     .profile_item>.content .use {
         margin: 0 auto;
         padding: 0;
+    }
+    .edu_text {
+        padding: 5px 20px 5px;
+    }
+}
+@media screen and (max-width:768px){
+    .edu_order:nth-child(odd) .edu_item{
+        flex-direction: row;
+    }
+    .edu_order:nth-child(odd) .edu_item .edu_text{
+        align-items: flex-start;
+        text-align: left;
+        border-left: 1px solid #86cbc3;
+        border-right: 1px solid #ffffff;
+    }
+    .edu_text {
+        align-items: flex-start;
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+        border-right: 0px solid #86cbc3;
+        border-left: 1px solid #86cbc3;
+    }
+    .edu_null {
+        width: 0;
+    }
+    .edu_item .ball {
+        right: 100%;
     }
 }
 
@@ -546,6 +662,7 @@ header ul>li>ul>li>a::before{
 }
 .skill_order .title h3{
     color: #5d5d5d; 
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 .skill_adobe{
     width: 90%;
@@ -573,7 +690,7 @@ header ul>li>ul>li>a::before{
     width: 80px;
 }
 .skill_web>.web_item>.name p{
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-size: 12px;
     font-weight: unset;
 }
@@ -672,7 +789,7 @@ header ul>li>ul>li>a::before{
     text-align: center;
 }
 .language_item>.name p{
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-size: 12px;
     font-weight: unset;
 }
@@ -689,7 +806,7 @@ header ul>li>ul>li>a::before{
     width: 65px;
 }
 .language_item .level_box .level_item p{
-    font-family: 'Courier New';
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     font-size: 12px;
     font-weight: unset;
 }
@@ -816,7 +933,7 @@ header ul>li>ul>li>a::before{
 .fs-lightbox.fs-light .fs-lightbox-caption p {
     margin: 0 !important;
     color: #5d5d5d !important;
-    font-family: 'Courier New' !important;
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif' !important;
     font-size: 12px !important;
     font-weight: unset !important;
 }
