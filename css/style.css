@@ -1068,3 +1068,84 @@ header ul>li>ul>li>a::before{
         width: 66%;
     }
 }
+
+
+.edm_order{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.edm_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 400px;
+    width: 17%;
+    margin: 20px 1%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 15%);
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+    background-color: #666;
+}
+.edm_pic{
+    width: 100%;
+    height: 55vh;
+    max-height: 50%;
+    border: 4px solid #1E1E1E;
+    overflow-y: scroll;
+}
+.edm_pic img{
+    width: 100%;
+}
+.edm_box .top_deco{
+    width: 100%;
+    height: 16px;
+    background-color: #1E1E1E;
+}
+.edm_box .top_deco p{
+    margin: -5px 5%;
+    width: 90%;
+    text-align: end;
+    font-weight: bolder;
+    color: #5d5d5d;
+}
+.edm_box .title_box{
+    width: 100%;
+    height: 16px;
+    background-color: #1E1E1E;
+}
+
+@media screen and (max-width:1300px){
+    .edm_box {
+        width: 30%;
+    }
+}
+@media screen and (max-width:1024px){
+    .edm_box {
+        width: 48%;
+    }
+    .edm_pic {
+        height: 40vh;
+    }
+}
+@media screen and (max-width:765px){
+    .edm_box {
+        width: 90%;
+    }
+}
+@media screen and (max-width:600px){
+    .edm_pic {
+        height: 43vh;
+    }
+}
+@media screen and (max-width:500px){
+    .edm_pic {
+        height: 65vh;
+    }
+}
