@@ -214,6 +214,7 @@ header ul>li>ul>li>a::before{
 
 @media screen and (max-width:1024px){
     .shape_box {
+        height: 89vh;
         position: relative;
         overflow: hidden;
     }
@@ -234,7 +235,7 @@ header ul>li>ul>li>a::before{
 @media screen and (max-width:500px){
     
     .shape_box {
-        height: 90vh;
+        height: 87vh;
         margin: 2vh 2% 5vh;
     }
     .yellow_title{
