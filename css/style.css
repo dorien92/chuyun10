@@ -46,6 +46,7 @@ header{
     border-radius: 20px 0px 0px 20px;
 }
 header .logo{
+    display: block;
     width: 150px;
     margin: 20px auto;
     text-align: center;
